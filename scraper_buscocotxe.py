@@ -263,7 +263,7 @@ def already_scraped(conn, url):
 
 # ─── Scraper principal ─────────────────────────────────────────────────────────
 
-def scrape(max_pages=5, max_cars=None):
+def scrape(max_pages=250, max_cars=None):
     conn = init_db()
     total = 0
     errors = 0
