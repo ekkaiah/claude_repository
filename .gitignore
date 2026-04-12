@@ -1,0 +1,15 @@
+# Base de dades local (massa gran per GitHub)
+*.db
+*.sqlite
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# macOS
+.DS_Store
+
+# Claude
+.claude/
