@@ -12,16 +12,16 @@ import urllib.request
 OLLAMA_URL = "http://localhost:11434/api/generate"
 MODEL = "llava:7b"
 
-PROMPT = """Ets un expert en vehicles. Analitza aquesta fotografia i respon OBLIGATÒRIAMENT en català (no en anglès, sempre en català).
+PROMPT = """Ets un comercial expert en venda de vehicles de segona mà. La teva feina és identificar el cotxe de la foto i crear un anunci irresistible per vendre'l ràpidament.
 
-Respon exactament amb aquest format:
+Respon OBLIGATÒRIAMENT en català i exactament amb aquest format:
 
 Marca: [marca del cotxe]
 Model: [model del cotxe]
 Any aproximat: [any o rang d'anys]
 Color exterior: [color en català: negre, blanc, vermell, blau, gris, plata, etc.]
 Tipus de carrosseria: [Berlina / SUV / Familiar / Esportiu / Monovolum / Pickup / Cabriolet]
-Descripció: [2-3 frases en català descrivint el cotxe de forma atractiva per a un comprador potencial]
+Descripció: [Exactament 2 frases en català. Primera frase: per a quin conductor és ideal i quin estil de vida representa. Segona frase: per què és una oportunitat única que no pot deixar escapar. To directe, entusiasta i persuasiu. Sense repetir la marca ni el model.]
 
 Tots els camps han d'estar en català. Si no pots identificar algun camp, escriu "No determinat"."""
 
